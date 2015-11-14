@@ -85,7 +85,7 @@ median.steps.day
 ```
 ## [1] 10765
 ```
-**The mean steps per day is 1.07662\times 10^{4}.**  
+**The mean steps per day is 10766.2.**  
 **The median steps per day is 10765.**  
 
 ## What is the average daily activity pattern?
@@ -172,9 +172,9 @@ median.steps.day.new
 ```
 ## [1] 10766.2
 ```
-**The mean after inputing missing values is 1.07662\times 10^{4}**  
-**The median after inputing missing values is 1.07662\times 10^{4}**  
-**The mean is the same as before and the median changed by less than two steps.**
+**The mean after inputing missing values is 10766.2**  
+**The median after inputing missing values is 10766.2**  
+**The mean is the same as before and the median changed by less than two steps.**  
 **This is expected since we replaced the missing values with the mean from all days for that 5 min interval.**
 
 ## Are there differences in activity patterns between weekdays and weekends?

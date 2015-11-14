@@ -49,7 +49,7 @@ mean.steps.day
 median.steps.day <- median(steps.day)
 median.steps.day
 ```
-**The mean steps per day is `r round(mean.steps.day,1)`.**  
+**The mean steps per day is `r sprintf("%.1f", mean.steps.day,1)`.**  
 **The median steps per day is `r median.steps.day`.**  
 
 ## What is the average daily activity pattern?
@@ -98,9 +98,9 @@ mean.steps.day.new
 median.steps.day.new <- round(median(steps.day.new),1)
 median.steps.day.new
 ```
-**The mean after inputing missing values is `r mean.steps.day.new`**  
-**The median after inputing missing values is `r median.steps.day.new`**  
-**The mean is the same as before and the median changed by less than two steps.**
+**The mean after inputing missing values is `r sprintf("%.1f", mean.steps.day.new)`**  
+**The median after inputing missing values is `r sprintf("%.1f", median.steps.day.new)`**  
+**The mean is the same as before and the median changed by less than two steps.**  
 **This is expected since we replaced the missing values with the mean from all days for that 5 min interval.**
 
 ## Are there differences in activity patterns between weekdays and weekends?
