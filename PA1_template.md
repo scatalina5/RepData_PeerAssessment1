@@ -116,7 +116,7 @@ max.steps
 ```
 ## [1] 206.1698
 ```
-**The 835th interval contains the maximum number of steps (206.1698113) in a day.**
+**The 835th interval contains the on average maximum number of steps (206.2) in a day.**
 
 ## Imputing missing values
 Total number of missing values (rows)

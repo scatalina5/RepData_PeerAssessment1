@@ -64,7 +64,7 @@ max.interval
 max.steps <- max(steps.interval)
 max.steps
 ```
-**The `r max.interval`th interval contains the maximum number of steps (`r max.steps`) in a day.**
+**The `r max.interval`th interval contains the on average maximum number of steps (`r sprintf("%.1f", max.steps,1)`) in a day.**
 
 ## Imputing missing values
 Total number of missing values (rows)
